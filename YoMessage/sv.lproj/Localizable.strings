@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  YoMessage
+
+  Created by Dylan Eirinberg on 7/29/14.
+  Copyright (c) 2014 Dylan Eirinberg. All rights reserved.
+*/
+
+"SEND TO" = "SKICKA TILL";
+"MESSAGE" = "BUDSKAP";
+"SEND" = "SKICKA";
+"SocialText" = "Skicka anpassade Yo meddelanden med YoMessage";
+"NoUserMessage" = "Inget användarnamn eller budskap anges";
+"NoUser" = "Inget användarnamn inlagt";
+"NoMessage" = "Inget budskap anges";
+"Spaces" = "Användarnamn kan inte ha mellanslag";
+"Restricted" = "Att skicka från %@ är begränsat";
+"Cannot send YoMessage!" = "Kan inte skicka YoMessage!";
+"No internet" = "Inga internet";
+"YoMessage is down" = "YoMessage fungerar inte";
+"Try again later" = "Försök igen senare";
+"SENT YO!" = "SKICKAS YO!";
+"%@ is blocked" = "%@ är blockerad";
+"%@ isn't a user" = "%@ är inte en användare";
+"Dismiss" = "Avvisa";

@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  YoMessage
+
+  Created by Dylan Eirinberg on 7/29/14.
+  Copyright (c) 2014 Dylan Eirinberg. All rights reserved.
+*/
+
+"SEND TO" = "SEND TO";
+"MESSAGE" = "MESSAGE";
+"SEND" = "SEND";
+"SocialText" = "Send custom Yo messages with YoMessage";
+"NoUserMessage" = "No username or message entered";
+"NoUser" = "No username entered";
+"NoMessage" = "No message entered";
+"Spaces" = "Usernames cannot have spaces";
+"Restricted" = "Sending from %@ is restricted";
+"Cannot send YoMessage!" = "Cannot send YoMessage!";
+"No internet" = "No internet";
+"YoMessage is down" = "YoMessage is down";
+"Try again later" = "Try again later";
+"SENT YO!" = "SENT YO!";
+"%@ is blocked" = "%@ is blocked";
+"%@ isn't a user" = "%@ isn't a user";
+"Dismiss" = "Dismiss";

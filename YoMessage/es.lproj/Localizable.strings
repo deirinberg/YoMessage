@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  YoMessage
+
+  Created by Dylan Eirinberg on 7/29/14.
+  Copyright (c) 2014 Dylan Eirinberg. All rights reserved.
+*/
+
+"SEND TO" = "ENVIAR AL";
+"MESSAGE" = "MENSAJE";
+"SEND" = "ENVIAR";
+"SocialText" = "Enviar encargo Yo mensajes con YoMessage";
+"NoUserMessage" = "No nombre de usuario o mensaje que se escriba";
+"NoUser" = "No nombre de usuario ingresado";
+"NoMessage" = "Ningún mensaje ingresado";
+"Spaces" = "Los nombres de usuario no pueden tener espacios";
+"Restricted" = "Envío desde %@ que no se permite";
+"Cannot send YoMessage!" = "¡No puede enviar YoMessage!";
+"No internet" = "No hay Internet";
+"YoMessage is down" = "YoMessage no está funcionando";
+"Try again later" = "Inténtelo de nuevo más tarde";
+"SENT YO!" = "¡ENVIÓ YO!";
+"%@ is blocked" = "%@ está bloqueada";
+"%@ isn't a user" = "%@ no es un usuario";
+"Dismiss" = "Despedir";

@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC19BFFB1988AFD40097ED22 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC19BFFD1988AFD40097ED22 /* Localizable.strings */; };
+		CC1C08361989FF3000AF49E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1C08351989FF3000AF49E4 /* QuartzCore.framework */; };
+		CC4A37EF19876BC700807C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A37EE19876BC700807C12 /* Foundation.framework */; };
+		CC4A37F119876BC700807C12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A37F019876BC700807C12 /* CoreGraphics.framework */; };
+		CC4A37F319876BC700807C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A37F219876BC700807C12 /* UIKit.framework */; };
+		CC4A37F919876BC700807C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC4A37F719876BC700807C12 /* InfoPlist.strings */; };
+		CC4A37FB19876BC700807C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A37FA19876BC700807C12 /* main.m */; };
+		CC4A37FF19876BC700807C12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A37FE19876BC700807C12 /* AppDelegate.m */; };
+		CC4A380219876BC700807C12 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4A380019876BC700807C12 /* Main_iPhone.storyboard */; };
+		CC4A380519876BC700807C12 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4A380319876BC700807C12 /* Main_iPad.storyboard */; };
+		CC4A380819876BC700807C12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A380719876BC700807C12 /* ViewController.m */; };
+		CC4A380A19876BC700807C12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4A380919876BC700807C12 /* Images.xcassets */; };
+		CC4A381119876BC700807C12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A381019876BC700807C12 /* XCTest.framework */; };
+		CC4A381219876BC700807C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A37EE19876BC700807C12 /* Foundation.framework */; };
+		CC4A381319876BC700807C12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4A37F219876BC700807C12 /* UIKit.framework */; };
+		CC4A381B19876BC700807C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC4A381919876BC700807C12 /* InfoPlist.strings */; };
+		CC4A381D19876BC700807C12 /* YoMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4A381C19876BC700807C12 /* YoMessageTests.m */; };
+		CC4A382819876D6E00807C12 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4A382619876C4A00807C12 /* Montserrat-Bold.ttf */; };
+		CC4A382919876D6E00807C12 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC4A382719876C4A00807C12 /* Montserrat-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4A381419876BC700807C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4A37E319876BC700807C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4A37EA19876BC700807C12;
+			remoteInfo = YoMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC19BFFC1988AFD40097ED22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC19BFFE1988B2C10097ED22 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		CC19BFFF1988B2C10097ED22 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		CC19C0001988B2C10097ED22 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC19C0011988B2C10097ED22 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C0021988B2C10097ED22 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C0031988BE470097ED22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		CC19C0041988BE470097ED22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		CC19C0051988BE470097ED22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC19C0061988BE470097ED22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C0071988BE470097ED22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C0081988BE520097ED22 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		CC19C0091988BE520097ED22 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		CC19C00A1988BE520097ED22 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC19C00B1988BE520097ED22 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C00C1988BE520097ED22 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C00D1988BE5A0097ED22 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		CC19C00E1988BE5A0097ED22 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		CC19C00F1988BE5A0097ED22 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC19C0101988BE5A0097ED22 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C0111988BE5A0097ED22 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C0121988BE620097ED22 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		CC19C0131988BE620097ED22 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		CC19C0141988BE620097ED22 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC19C0151988BE620097ED22 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC19C0161988BE620097ED22 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC1C08351989FF3000AF49E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC4A37EB19876BC700807C12 /* YoMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4A37EE19876BC700807C12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC4A37F019876BC700807C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC4A37F219876BC700807C12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC4A37F619876BC700807C12 /* YoMessage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoMessage-Info.plist"; sourceTree = "<group>"; };
+		CC4A37F819876BC700807C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC4A37FA19876BC700807C12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC4A37FC19876BC700807C12 /* YoMessage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoMessage-Prefix.pch"; sourceTree = "<group>"; };
+		CC4A37FD19876BC700807C12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC4A37FE19876BC700807C12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC4A380119876BC700807C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CC4A380419876BC700807C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CC4A380619876BC700807C12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC4A380719876BC700807C12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC4A380919876BC700807C12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC4A380F19876BC700807C12 /* YoMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4A381019876BC700807C12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC4A381819876BC700807C12 /* YoMessageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoMessageTests-Info.plist"; sourceTree = "<group>"; };
+		CC4A381A19876BC700807C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC4A381C19876BC700807C12 /* YoMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoMessageTests.m; sourceTree = "<group>"; };
+		CC4A382619876C4A00807C12 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CC4A382719876C4A00807C12 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4A37E819876BC700807C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C08361989FF3000AF49E4 /* QuartzCore.framework in Frameworks */,
+				CC4A37F119876BC700807C12 /* CoreGraphics.framework in Frameworks */,
+				CC4A37F319876BC700807C12 /* UIKit.framework in Frameworks */,
+				CC4A37EF19876BC700807C12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A380C19876BC700807C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A381119876BC700807C12 /* XCTest.framework in Frameworks */,
+				CC4A381319876BC700807C12 /* UIKit.framework in Frameworks */,
+				CC4A381219876BC700807C12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4A37E219876BC700807C12 = {
+			isa = PBXGroup;
+			children = (
+				CC4A37F419876BC700807C12 /* YoMessage */,
+				CC4A381619876BC700807C12 /* YoMessageTests */,
+				CC4A37ED19876BC700807C12 /* Frameworks */,
+				CC4A37EC19876BC700807C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4A37EC19876BC700807C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A37EB19876BC700807C12 /* YoMessage.app */,
+				CC4A380F19876BC700807C12 /* YoMessageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4A37ED19876BC700807C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C08351989FF3000AF49E4 /* QuartzCore.framework */,
+				CC4A37EE19876BC700807C12 /* Foundation.framework */,
+				CC4A37F019876BC700807C12 /* CoreGraphics.framework */,
+				CC4A37F219876BC700807C12 /* UIKit.framework */,
+				CC4A381019876BC700807C12 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC4A37F419876BC700807C12 /* YoMessage */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A37FD19876BC700807C12 /* AppDelegate.h */,
+				CC4A37FE19876BC700807C12 /* AppDelegate.m */,
+				CC4A380019876BC700807C12 /* Main_iPhone.storyboard */,
+				CC4A380319876BC700807C12 /* Main_iPad.storyboard */,
+				CC4A380619876BC700807C12 /* ViewController.h */,
+				CC4A380719876BC700807C12 /* ViewController.m */,
+				CC4A380919876BC700807C12 /* Images.xcassets */,
+				CC4A37F519876BC700807C12 /* Supporting Files */,
+			);
+			path = YoMessage;
+			sourceTree = "<group>";
+		};
+		CC4A37F519876BC700807C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A37F619876BC700807C12 /* YoMessage-Info.plist */,
+				CC4A382619876C4A00807C12 /* Montserrat-Bold.ttf */,
+				CC4A382719876C4A00807C12 /* Montserrat-Regular.ttf */,
+				CC19BFFD1988AFD40097ED22 /* Localizable.strings */,
+				CC4A37F719876BC700807C12 /* InfoPlist.strings */,
+				CC4A37FA19876BC700807C12 /* main.m */,
+				CC4A37FC19876BC700807C12 /* YoMessage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4A381619876BC700807C12 /* YoMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A381C19876BC700807C12 /* YoMessageTests.m */,
+				CC4A381719876BC700807C12 /* Supporting Files */,
+			);
+			path = YoMessageTests;
+			sourceTree = "<group>";
+		};
+		CC4A381719876BC700807C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4A381819876BC700807C12 /* YoMessageTests-Info.plist */,
+				CC4A381919876BC700807C12 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4A37EA19876BC700807C12 /* YoMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4A382019876BC700807C12 /* Build configuration list for PBXNativeTarget "YoMessage" */;
+			buildPhases = (
+				CC4A37E719876BC700807C12 /* Sources */,
+				CC4A37E819876BC700807C12 /* Frameworks */,
+				CC4A37E919876BC700807C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoMessage;
+			productName = YoMessage;
+			productReference = CC4A37EB19876BC700807C12 /* YoMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4A380E19876BC700807C12 /* YoMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4A382319876BC700807C12 /* Build configuration list for PBXNativeTarget "YoMessageTests" */;
+			buildPhases = (
+				CC4A380B19876BC700807C12 /* Sources */,
+				CC4A380C19876BC700807C12 /* Frameworks */,
+				CC4A380D19876BC700807C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4A381519876BC700807C12 /* PBXTargetDependency */,
+			);
+			name = YoMessageTests;
+			productName = YoMessageTests;
+			productReference = CC4A380F19876BC700807C12 /* YoMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4A37E319876BC700807C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dylan Eirinberg";
+				TargetAttributes = {
+					CC4A37EA19876BC700807C12 = {
+						DevelopmentTeam = WY45UT4NC2;
+					};
+					CC4A380E19876BC700807C12 = {
+						TestTargetID = CC4A37EA19876BC700807C12;
+					};
+				};
+			};
+			buildConfigurationList = CC4A37E619876BC700807C12 /* Build configuration list for PBXProject "YoMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				fr,
+				de,
+				it,
+				sv,
+				he,
+			);
+			mainGroup = CC4A37E219876BC700807C12;
+			productRefGroup = CC4A37EC19876BC700807C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4A37EA19876BC700807C12 /* YoMessage */,
+				CC4A380E19876BC700807C12 /* YoMessageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4A37E919876BC700807C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A382819876D6E00807C12 /* Montserrat-Bold.ttf in Resources */,
+				CC4A382919876D6E00807C12 /* Montserrat-Regular.ttf in Resources */,
+				CC4A380519876BC700807C12 /* Main_iPad.storyboard in Resources */,
+				CC19BFFB1988AFD40097ED22 /* Localizable.strings in Resources */,
+				CC4A380A19876BC700807C12 /* Images.xcassets in Resources */,
+				CC4A380219876BC700807C12 /* Main_iPhone.storyboard in Resources */,
+				CC4A37F919876BC700807C12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A380D19876BC700807C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A381B19876BC700807C12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4A37E719876BC700807C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A380819876BC700807C12 /* ViewController.m in Sources */,
+				CC4A37FF19876BC700807C12 /* AppDelegate.m in Sources */,
+				CC4A37FB19876BC700807C12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4A380B19876BC700807C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4A381D19876BC700807C12 /* YoMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4A381519876BC700807C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4A37EA19876BC700807C12 /* YoMessage */;
+			targetProxy = CC4A381419876BC700807C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC19BFFD1988AFD40097ED22 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC19BFFC1988AFD40097ED22 /* en */,
+				CC19C0001988B2C10097ED22 /* es */,
+				CC19C0051988BE470097ED22 /* fr */,
+				CC19C00A1988BE520097ED22 /* de */,
+				CC19C00F1988BE5A0097ED22 /* it */,
+				CC19C0141988BE620097ED22 /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CC4A37F719876BC700807C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4A37F819876BC700807C12 /* en */,
+				CC19C0011988B2C10097ED22 /* es */,
+				CC19C0061988BE470097ED22 /* fr */,
+				CC19C00B1988BE520097ED22 /* de */,
+				CC19C0101988BE5A0097ED22 /* it */,
+				CC19C0151988BE620097ED22 /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC4A380019876BC700807C12 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4A380119876BC700807C12 /* Base */,
+				CC19BFFE1988B2C10097ED22 /* es */,
+				CC19C0031988BE470097ED22 /* fr */,
+				CC19C0081988BE520097ED22 /* de */,
+				CC19C00D1988BE5A0097ED22 /* it */,
+				CC19C0121988BE620097ED22 /* sv */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4A380319876BC700807C12 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4A380419876BC700807C12 /* Base */,
+				CC19BFFF1988B2C10097ED22 /* es */,
+				CC19C0041988BE470097ED22 /* fr */,
+				CC19C0091988BE520097ED22 /* de */,
+				CC19C00E1988BE5A0097ED22 /* it */,
+				CC19C0131988BE620097ED22 /* sv */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4A381919876BC700807C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4A381A19876BC700807C12 /* en */,
+				CC19C0021988B2C10097ED22 /* es */,
+				CC19C0071988BE470097ED22 /* fr */,
+				CC19C00C1988BE520097ED22 /* de */,
+				CC19C0111988BE5A0097ED22 /* it */,
+				CC19C0161988BE620097ED22 /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4A381E19876BC700807C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dylan Eirinberg (GLSU9HC363)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Eirinberg (GLSU9HC363)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9F87A607-FF3A-4EC3-9F98-C628B92476F8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4A381F19876BC700807C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dylan Eirinberg (GLSU9HC363)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Eirinberg (GLSU9HC363)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "9F87A607-FF3A-4EC3-9F98-C628B92476F8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4A382119876BC700807C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Eirinberg (GLSU9HC363)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoMessage/YoMessage-Prefix.pch";
+				INFOPLIST_FILE = "YoMessage/YoMessage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9F87A607-FF3A-4EC3-9F98-C628B92476F8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC4A382219876BC700807C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Eirinberg (GLSU9HC363)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoMessage/YoMessage-Prefix.pch";
+				INFOPLIST_FILE = "YoMessage/YoMessage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9F87A607-FF3A-4EC3-9F98-C628B92476F8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC4A382419876BC700807C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoMessage.app/YoMessage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoMessage/YoMessage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YoMessageTests/YoMessageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC4A382519876BC700807C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoMessage.app/YoMessage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoMessage/YoMessage-Prefix.pch";
+				INFOPLIST_FILE = "YoMessageTests/YoMessageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4A37E619876BC700807C12 /* Build configuration list for PBXProject "YoMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A381E19876BC700807C12 /* Debug */,
+				CC4A381F19876BC700807C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4A382019876BC700807C12 /* Build configuration list for PBXNativeTarget "YoMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A382119876BC700807C12 /* Debug */,
+				CC4A382219876BC700807C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4A382319876BC700807C12 /* Build configuration list for PBXNativeTarget "YoMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4A382419876BC700807C12 /* Debug */,
+				CC4A382519876BC700807C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4A37E319876BC700807C12 /* Project object */;
+}
